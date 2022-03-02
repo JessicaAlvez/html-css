@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&family=Montserrat:wght@100;200;300;500&family=Playfair+Display&family=Redressed&display=swap');
+
+body{
+    background-image: linear-gradient(to left, #FAC5C3, #DEADC1, #D3ADDE, #DFC3FA, #F5CCF1);
+    font: bold 1.5em 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    color: #705d75;
+}
+
+h2{
+    color: #704b7c;
+}
+
+#exemplo {
+    color: hotpink;
+}
+
+div > p {
+    display: none;
+}
+div:hover > p {
+    display: block;
+    color: white;
+    background-color: red;
+}
+div:hover {
+    color: red;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    color: palevioletred;
+    text-decoration: none;
+}
+a:active {
+    color: red;
+}
+a:hover {
+    color: rgb(172, 121, 219);
+    text-decoration: underline;
+}
+
+a::after {
+    content: ' ✽ ';
+}
+
+a::before {
+    content: ' ✽ ';
+}

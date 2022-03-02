@@ -1,0 +1,29 @@
+h1 {
+    background-color: lightblue;
+    text-align: center;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: aqua;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
+    margin-bottom: 60px;
+}
+
+a{
+    color: rgba(81, 164, 212, 0.644);
+    text-decoration: none;
+    
+    padding: 5px;
+    border: 2px;
+    border-style: dashed;
+    border-color: rgba(81, 164, 212, 0.644);
+}
+
+p {
+    text-indent: 10px;
+}
