@@ -48,29 +48,48 @@ header a:hover, footer a:hover {
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     padding-left: 50px;
     line-height: 2em;
-
+    text-align: justify;
     font-family: var(--font4);
-    font-size: 1.5em;
+    font-size: 1.4em;
+}
+
+section > p {
+    padding-bottom: 2.5em;
 }
 
 section.normal{
     background-color: white;
+    color: black;
 
 }
 
 section.imagem {
     background-color: rosybrown;
+    color: white;
+    box-shadow: inset  6px 6px 13px 0px rgba(0, 0, 0, 0.445);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 8px;
-    background-color: rgba(0, 0, 0, 0.239);
-    
+    background-color: rgba(0, 0, 0, 0.342);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url('../projeto-cordel/imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url('../projeto-cordel/imagens/background002.jpg');
+    background-position: right center;
 }
 
 footer {
